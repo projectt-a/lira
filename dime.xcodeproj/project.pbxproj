@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5327D2E6287C6CC300F76ADF /* Popovers in Frameworks */ = {isa = PBXBuildFile; productRef = 5327D2E5287C6CC300F76ADF /* Popovers */; };
-		5328588B29B502C400CB64D0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5328588929B4F8D500CB64D0 /* Localizable.strings */; };
 		533A38F42AA49E5900F66957 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 533A38F32AA49E5900F66957 /* Alamofire */; };
-		53423C5D29B9B37F000CB54F /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 53423C6229B9B37F000CB54F /* Localizable.stringsdict */; };
 		5383D85E287D9A0100D1B9BA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5383D85D287D9A0100D1B9BA /* CloudKit.framework */; };
 		538D10752A5AB7E7008F1AFB /* IsScrolling in Frameworks */ = {isa = PBXBuildFile; productRef = 538D10742A5AB7E7008F1AFB /* IsScrolling */; };
 		53A4148028B7DA4C008C30E7 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 53A4147F28B7DA4C008C30E7 /* ConfettiSwiftUI */; };
@@ -47,8 +45,6 @@
 		5313EC5C28ACE941000EAB0C /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		5313EC6728ACE941000EAB0C /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		5327D283287C697400F76ADF /* dime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5328588829B4F8D500CB64D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		53423C6329B9B3AC000CB54F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		5383D85D287D9A0100D1B9BA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		53B1D18B288ED7E400E28062 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		53B1D18D288ED7E500E28062 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -91,8 +87,6 @@
 		5327D27A287C697400F76ADF = {
 			isa = PBXGroup;
 			children = (
-				5328588929B4F8D500CB64D0 /* Localizable.strings */,
-				53423C6229B9B37F000CB54F /* Localizable.stringsdict */,
 				093E09B42D6E3EDC00468B34 /* dime */,
 				5327D284287C697400F76ADF /* Products */,
 				5383D85C287D9A0100D1B9BA /* Frameworks */,
@@ -205,8 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5328588B29B502C400CB64D0 /* Localizable.strings in Resources */,
-				53423C5D29B9B37F000CB54F /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +234,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5328588929B4F8D500CB64D0 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5328588829B4F8D500CB64D0 /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		53423C6229B9B37F000CB54F /* Localizable.stringsdict */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53423C6329B9B3AC000CB54F /* en */,
-			);
-			name = Localizable.stringsdict;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5327D28F287C697C00F76ADF /* Debug */ = {
@@ -315,11 +288,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -370,10 +345,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};

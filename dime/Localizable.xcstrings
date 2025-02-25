@@ -1,0 +1,4222 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "-%.2f" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-%.2f"
+          }
+        }
+      }
+    },
+    "-%@" : {
+
+    },
+    "." : {
+
+    },
+    "·" : {
+
+    },
+    "\"Cent-less\"" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Kuruşsuz\""
+          }
+        }
+      }
+    },
+    "\"Pre-dotted\"" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\"Önceden Noktalı\""
+          }
+        }
+      }
+    },
+    "%" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%"
+          }
+        }
+      }
+    },
+    "%.0f" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%.0f"
+          }
+        }
+      }
+    },
+    "%.0f%" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$.0f%2$"
+          }
+        }
+      }
+    },
+    "%.0f%%" : {
+
+    },
+    "%.1f" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%.1f"
+          }
+        }
+      }
+    },
+    "%.1f%" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$.1f%2$"
+          }
+        }
+      }
+    },
+    "%.2f" : {
+
+    },
+    "%@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%@ • %@ spent" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ • %2$@ spent"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ • %@ harcandı"
+          }
+        }
+      }
+    },
+    "%@ CATEGORIES" : {
+
+    },
+    "%@ of month" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayın %@'si"
+          }
+        }
+      }
+    },
+    "%@ SPENT" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ HARÇANDI"
+          }
+        }
+      }
+    },
+    "%@ tab" : {
+
+    },
+    "%@, %@%@, Transaction Category: %@, Transaction made at %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@%3$@, Transaction Category: %4$@, Transaction made at %5$@"
+          }
+        }
+      }
+    },
+    "%@%" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@%2$"
+          }
+        }
+      }
+    },
+    "%@%.2f" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$.2f"
+          }
+        }
+      }
+    },
+    "%@%@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@%2$@"
+          }
+        }
+      }
+    },
+    "%@%@ was spent %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$@ was spent %3$@"
+          }
+        }
+      }
+    },
+    "%@%lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$lld"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld days" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld days left" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "1 day left"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld days left"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Empty"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld hours left" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "1 hour left"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld hours left"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Empty"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld months" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld month"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld months"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld months"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld months ago" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld month ago"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld months ago"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld months ago"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld weeks" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld week"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld weeks"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld weeks"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld weeks ago" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld week ago"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld weeks ago"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld weeks ago"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld years ago" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld year ago"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld years ago"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld years ago"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld/^[%lld category](inflect: true) linked" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/^[%2$lld category](inflect: true) linked"
+          }
+        }
+      }
+    },
+    "%lld%% spent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%% harcandı"
+          }
+        }
+      }
+    },
+    "%lldd left" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldd kalan"
+          }
+        }
+      }
+    },
+    "%lldh left" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldh kalan"
+          }
+        }
+      }
+    },
+    "+%.2f" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%.2f"
+          }
+        }
+      }
+    },
+    "+%@" : {
+
+    },
+    "☕ Coffee-Sized Tip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☕ Kahve Boyutunda Bahşiş"
+          }
+        }
+      }
+    },
+    "🌮 Taco-Sized Tip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌮 Taco Boyutunda Bahşiş"
+          }
+        }
+      }
+    },
+    "🍕 Pizza-Sized Tip" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🍕 Pizza Boyutunda Bahşiş"
+          }
+        }
+      }
+    },
+    "📭️" : {
+
+    },
+    "🙈" : {
+
+    },
+    "0" : {
+
+    },
+    "100" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100"
+          }
+        }
+      }
+    },
+    "A convenient button to log new purchases." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni alışverişleri kaydetmek için kullanışlı bir düğme."
+          }
+        }
+      }
+    },
+    "ADD BUDGET" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BÜTÇE EKLE"
+          }
+        }
+      }
+    },
+    "Add Categories" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Categories"
+          }
+        }
+      }
+    },
+    "Add new entries in a simple, straightforward manner" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add new entries in a simple, straightforward manner"
+          }
+        }
+      }
+    },
+    "Add New Transaction" : {
+
+    },
+    "Add Note" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Ekle"
+          }
+        }
+      }
+    },
+    "ADD OVERALL BUDGET" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GENEL BÜTÇE EKLE"
+          }
+        }
+      }
+    },
+    "Add your first budget today!" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugün ilk bütçenizi ekleyin!"
+          }
+        }
+      }
+    },
+    "Additional Category Filters" : {
+
+    },
+    "Additional Pointers" : {
+
+    },
+    "all entries" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "all entries"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tüm girişler"
+          }
+        }
+      }
+    },
+    "all time" : {
+
+    },
+    "Allowance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harçlık"
+          }
+        }
+      }
+    },
+    "Amount" : {
+
+    },
+    "An unknown error occurred: %@" : {
+
+    },
+    "Analyse your expenditure" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Analyse your expenditure"
+          }
+        }
+      }
+    },
+    "Analyse Your Expenditure" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harcamalarınızı Analiz Edin"
+          }
+        }
+      }
+    },
+    "Analyse your expenditure breakdowns over various time periods." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farklı zaman dilimlerindeki harcama dağılımlarınızı analiz edin."
+          }
+        }
+      }
+    },
+    "Animated Charts" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animated Charts"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animasyonlu Grafikler"
+          }
+        }
+      }
+    },
+    "App Icon" : {
+
+    },
+    "App Locked" : {
+
+    },
+    "Appearance" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görünüm"
+          }
+        }
+      }
+    },
+    "Apr" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nis"
+          }
+        }
+      }
+    },
+    "As transactions start piling up" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İşlemler birikmeye başladıkça"
+          }
+        }
+      }
+    },
+    "Authentication" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentication"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimlik Doğrulama"
+          }
+        }
+      }
+    },
+    "AVG/DAY" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GÜNLÜK ORT."
+          }
+        }
+      }
+    },
+    "AVG/MTH" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AYLIK ORT."
+          }
+        }
+      }
+    },
+    "Back" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri"
+          }
+        }
+      }
+    },
+    "Back Out" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back Out"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri Çekil"
+          }
+        }
+      }
+    },
+    "Begin by linking this budget to an existing category." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begin by linking this budget to an existing category."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu bütçeyi mevcut bir kategoriye bağlayarak başlayın."
+          }
+        }
+      }
+    },
+    "Budget" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçe"
+          }
+        }
+      }
+    },
+    "Budget no longer exists - please select new budget from widget options." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçe artık mevcut değil – lütfen widget seçeneklerinden yeni bir bütçe seçin."
+          }
+        }
+      }
+    },
+    "Budget Rows" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Budget Rows"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçe Satırları"
+          }
+        }
+      }
+    },
+    "BUDGET SCORE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BUDGET SCORE"
+          }
+        }
+      }
+    },
+    "Budget Type" : {
+
+    },
+    "Budget Your Finances" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finansmanınızı Bütçeyin"
+          }
+        }
+      }
+    },
+    "Budgets" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçeler"
+          }
+        }
+      }
+    },
+    "by category" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "by category"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kategorilere göre"
+          }
+        }
+      }
+    },
+    "by day" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "by day"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "güne göre"
+          }
+        }
+      }
+    },
+    "by month" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "by month"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aya göre"
+          }
+        }
+      }
+    },
+    "by type" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "by type"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "türe göre"
+          }
+        }
+      }
+    },
+    "by week" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "by week"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "haftaya göre"
+          }
+        }
+      }
+    },
+    "Calculate ${type} for ${timeframe}" : {
+
+    },
+    "Calculate leftover amount for the ${budget} ${type}" : {
+
+    },
+    "Calculate leftover amount for the ${type}" : {
+
+    },
+    "Cancel" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal"
+          }
+        }
+      }
+    },
+    "categorical budget" : {
+
+    },
+    "Categories" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategoriler"
+          }
+        }
+      }
+    },
+    "Category" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori"
+          }
+        }
+      }
+    },
+    "Category associated with the transaction" : {
+
+    },
+    "category budget" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "category budget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kategori bütçesi"
+          }
+        }
+      }
+    },
+    "Category Budget" : {
+
+    },
+    "Category Filters" : {
+
+    },
+    "Category Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori Adı"
+          }
+        }
+      }
+    },
+    "Category not found" : {
+
+    },
+    "Celebrate Expenses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celebrate Expenses"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harcamaları Kutla"
+          }
+        }
+      }
+    },
+    "Choose a time frame" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a time frame"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir zaman dilimi seçin"
+          }
+        }
+      }
+    },
+    "Close" : {
+
+    },
+    "Close and reload app for change to take effect." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Değişikliğin geçerli olması için uygulamayı kapatıp yeniden açın."
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devam Et"
+          }
+        }
+      }
+    },
+    "Couldn't save to CoreData" : {
+
+    },
+    "Create your overall budget in the app" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamada genel bütçenizi oluşturun"
+          }
+        }
+      }
+    },
+    "Currencies" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para Birimleri"
+          }
+        }
+      }
+    },
+    "Currency" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para Birimi"
+          }
+        }
+      }
+    },
+    "custom" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "özel"
+          }
+        }
+      }
+    },
+    "Custom" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özel"
+          }
+        }
+      }
+    },
+    "Custom Interval" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özel Aralık"
+          }
+        }
+      }
+    },
+    "Custom notification time" : {
+
+    },
+    "Custom Time" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özel Zaman"
+          }
+        }
+      }
+    },
+    "daily" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "günlük"
+          }
+        }
+      }
+    },
+    "Daily" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlük"
+          }
+        }
+      }
+    },
+    "Danger Zone" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tehlike Bölgesi"
+          }
+        }
+      }
+    },
+    "Dark" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koyu"
+          }
+        }
+      }
+    },
+    "DATA" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VERİ"
+          }
+        }
+      }
+    },
+    "Date" : {
+
+    },
+    "Date Format" : {
+
+    },
+    "day" : {
+
+    },
+    "days" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gün"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
+          }
+        }
+      }
+    },
+    "Delete ''?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete ''?"
+          }
+        }
+      }
+    },
+    "Delete '%@'?" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'%@' silinsin mi?"
+          }
+        }
+      }
+    },
+    "Delete %@ transaction confirmation. This action cannot be undone." : {
+
+    },
+    "Delete Expense?" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gideri Silinsin mi?"
+          }
+        }
+      }
+    },
+    "Delete Literally Everything" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelimenin Tam Anlamıyla Her Şeyi Sil"
+          }
+        }
+      }
+    },
+    "Delete the '%@' budget?" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'%@' bütçesi silinsin mi?"
+          }
+        }
+      }
+    },
+    "delete transaction" : {
+
+    },
+    "Delete your overall budget?" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genel bütçeniz silinsin mi?"
+          }
+        }
+      }
+    },
+    "dime" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dime"
+          }
+        }
+      }
+    },
+    "dime_name" : {
+      "comment" : "welcome sheet",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dime"
+          }
+        }
+      }
+    },
+    "Display Cents" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Display Cents"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuruşları Göster"
+          }
+        }
+      }
+    },
+    "Display on Log Page" : {
+
+    },
+    "Displays transaction suggestions whilst you type in the 'Note' field of the new transaction page." : {
+
+    },
+    "Don't worry, even if you do hide them there, you will aways be able to find all upcoming transactions right here." : {
+
+    },
+    "Draw insights from your spending over various time periods" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draw insights from your spending over various time periods"
+          }
+        }
+      }
+    },
+    "Duplicate Found" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yinelenen Kayıt Bulundu"
+          }
+        }
+      }
+    },
+    "earned" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kazanılan"
+          }
+        }
+      }
+    },
+    "Earned" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kazanılan"
+          }
+        }
+      }
+    },
+    "EARNED " : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KAZANILAN "
+          }
+        }
+      }
+    },
+    "Edit" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düzenle"
+          }
+        }
+      }
+    },
+    "Emoji" : {
+
+    },
+    "Enable Notifications" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildirimleri Etkinleştir"
+          }
+        }
+      }
+    },
+    "Enable Sync" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senkronizasyonu Etkinleştir"
+          }
+        }
+      }
+    },
+    "Erase Data" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verileri Sil"
+          }
+        }
+      }
+    },
+    "Evenings" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akşamlar"
+          }
+        }
+      }
+    },
+    "Every evening (8:00 PM)" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her akşam (20:00)"
+          }
+        }
+      }
+    },
+    "Every morning (8:00 AM)" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her sabah (08:00)"
+          }
+        }
+      }
+    },
+    "Excessive" : {
+
+    },
+    "expense" : {
+
+    },
+    "Expense" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gider"
+          }
+        }
+      }
+    },
+    "EXPENSE CATEGORIES" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GİDER KATEGORİLERİ"
+          }
+        }
+      }
+    },
+    "Expense Category" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gider Kategorisi"
+          }
+        }
+      }
+    },
+    "Expense successfully logged." : {
+
+    },
+    "expenses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "expenses"
+          }
+        }
+      }
+    },
+    "Expenses" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giderler"
+          }
+        }
+      }
+    },
+    "Experimental features - proceed with caution." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deneysel özellikler – dikkatli kullanın."
+          }
+        }
+      }
+    },
+    "Export Data" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export Data"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verileri Dışa Aktar"
+          }
+        }
+      }
+    },
+    "Extract leftover amount for a particular budget" : {
+
+    },
+    "Extracts your total expenditure or income for a particular time period" : {
+
+    },
+    "Family" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aile"
+          }
+        }
+      }
+    },
+    "Fashion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moda"
+          }
+        }
+      }
+    },
+    "Feature Lab" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özellik Laboratuvarı"
+          }
+        }
+      }
+    },
+    "Feel free to edit this in the future." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feel free to edit this in the future."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İleride düzenlemekten çekinmeyin."
+          }
+        }
+      }
+    },
+    "Filter" : {
+
+    },
+    "filter-picker-income" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelir"
+          }
+        }
+      }
+    },
+    "filter-tag-category" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kategorilere göre"
+          }
+        }
+      }
+    },
+    "filter-tag-day" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "güne göre"
+          }
+        }
+      }
+    },
+    "filter-tag-month" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aya göre"
+          }
+        }
+      }
+    },
+    "filter-tag-recurring" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tekrarlayan"
+          }
+        }
+      }
+    },
+    "filter-tag-type" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "türe göre"
+          }
+        }
+      }
+    },
+    "filter-tag-upcoming" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yaklaşan"
+          }
+        }
+      }
+    },
+    "filter-tag-week" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "haftaya göre"
+          }
+        }
+      }
+    },
+    "Follow Dime on Twitter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow Dime on Twitter"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twitter'da Dime'yi Takip Et"
+          }
+        }
+      }
+    },
+    "Follow Rafael on Instagram" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow Rafael on Instagram"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram'da Rafael'i Takip Et"
+          }
+        }
+      }
+    },
+    "Food" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yiyecek"
+          }
+        }
+      }
+    },
+    "Frequency" : {
+
+    },
+    "Friday" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuma"
+          }
+        }
+      }
+    },
+    "GENERAL" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GENEL"
+          }
+        }
+      }
+    },
+    "Get Budget Insights" : {
+
+    },
+    "Get Insights" : {
+
+    },
+    "Get Started" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hemen Başlayın"
+          }
+        }
+      }
+    },
+    "getText(product.productIdentifier)" : {
+
+    },
+    "Gifts" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hediyeler"
+          }
+        }
+      }
+    },
+    "Groceries" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Market Alışverişi"
+          }
+        }
+      }
+    },
+    "Haptic Feedback" : {
+
+    },
+    "Have a great day ahead!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Have a great day ahead!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harika bir gün geçirmen dileğiyle!"
+          }
+        }
+      }
+    },
+    "Healthcare" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sağlık"
+          }
+        }
+      }
+    },
+    "hello world" : {
+
+    },
+    "Here are 2 different ways to input numbers - try out both and choose one you prefer!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Here are 2 different ways to input numbers - try out both and choose one you prefer!"
+          }
+        }
+      }
+    },
+    "Here you go!" : {
+
+    },
+    "Hey! Dime was built by a solo student developer, and is intended to be completely free-of-charge, with no paywalls or ads. If you enjoy using Dime and want to support development, please consider a small tip." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hey! Dime, yalnız bir öğrenci geliştirici tarafından yapıldı ve tamamen ücretsiz sunuluyor; ne ücret duvarı ne de reklam var. Dime'yi kullanmaktan hoşlanıyorsanız ve geliştirmeyi desteklemek isterseniz, lütfen küçük bir bahşiş vermeyi düşünün."
+          }
+        }
+      }
+    },
+    "Hidden" : {
+
+    },
+    "How much was transacted?" : {
+
+    },
+    "iCloud Sync" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iCloud Senkronizasyonu"
+          }
+        }
+      }
+    },
+    "If you're too lazy to add a decimal point, \nI gotchu covered." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you're too lazy to add a decimal point, \nI gotchu covered."
+          }
+        }
+      }
+    },
+    "If you're too lazy to add a decimal point, I gotchu covered." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ondalık eklemeye üşeniyorsan, ben hallederim."
+          }
+        }
+      }
+    },
+    "If your inputs rarely include cents, Type 2 would enable you to add new expenses much faster." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If your inputs rarely include cents, Type 2 would enable you to add new expenses much faster."
+          }
+        }
+      }
+    },
+    "If your transactions usually amount to whole numbers - this one is for you." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İşlemleriniz genellikle tam sayılardan oluşuyorsa – bu tam size göre."
+          }
+        }
+      }
+    },
+    "Import" : {
+
+    },
+    "Import Failed" : {
+
+    },
+    "Import Successful" : {
+
+    },
+    "in %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@'de"
+          }
+        }
+      }
+    },
+    "income" : {
+
+    },
+    "Income" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelir"
+          }
+        }
+      }
+    },
+    "INCOME CATEGORIES" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GELİR KATEGORİLERİ"
+          }
+        }
+      }
+    },
+    "Income Category" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelir Kategorisi"
+          }
+        }
+      }
+    },
+    "Income successfully logged." : {
+
+    },
+    "Income Tracking" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Income Tracking"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelir Takibi"
+          }
+        }
+      }
+    },
+    "Income/Day" : {
+
+    },
+    "INCOME/DAY" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GÜN BAŞINA GELİR"
+          }
+        }
+      }
+    },
+    "Income/Mth" : {
+
+    },
+    "INCOME/MTH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AY BAŞINA GELİR"
+          }
+        }
+      }
+    },
+    "Incomplete Entry" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksik Giriş"
+          }
+        }
+      }
+    },
+    "Indicate date format" : {
+
+    },
+    "Insights" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İçgörüler"
+          }
+        }
+      }
+    },
+    "Insights Type" : {
+
+    },
+    "Into the\nunknown." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Into the\nunknown."
+          }
+        }
+      }
+    },
+    "Into the unknown." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilinmeze Doğru."
+          }
+        }
+      }
+    },
+    "Investments" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yatırımlar"
+          }
+        }
+      }
+    },
+    "Jan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oca"
+          }
+        }
+      }
+    },
+    "Jul" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tem"
+          }
+        }
+      }
+    },
+    "Keep the streak going!" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seriyi Sürdürün!"
+          }
+        }
+      }
+    },
+    "left" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kalan"
+          }
+        }
+      }
+    },
+    "left %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kalan %@"
+          }
+        }
+      }
+    },
+    "left each day" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "her gün kalan"
+          }
+        }
+      }
+    },
+    "left on %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@'de kalan"
+          }
+        }
+      }
+    },
+    "left this month" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu ay kalan"
+          }
+        }
+      }
+    },
+    "left this week" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu hafta kalan"
+          }
+        }
+      }
+    },
+    "left this year" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu yıl kalan"
+          }
+        }
+      }
+    },
+    "left today" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bugün kalan"
+          }
+        }
+      }
+    },
+    "Light" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Açık"
+          }
+        }
+      }
+    },
+    "Limit to 14-Day Outlook" : {
+
+    },
+    "Link budgets to categories and set appropriate expenditure goals" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçeleri kategorilere bağlayın ve uygun harcama hedefleri belirleyin"
+          }
+        }
+      }
+    },
+    "Loading" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yükleniyor"
+          }
+        }
+      }
+    },
+    "Log an ${income} of ${amount}" : {
+
+    },
+    "Log an ${income} of ${amount} under ${expenseCategory}" : {
+
+    },
+    "Log an ${income} of ${amount} under ${incomeCategory}" : {
+
+    },
+    "Log new transactions in a blink" : {
+
+    },
+    "Made with ❤️ by %@ from 🇸🇬" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "❤️ ile, %@ tarafından, 🇸🇬'den yapıldı"
+          }
+        }
+      }
+    },
+    "Missing Amount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miktar Eksik"
+          }
+        }
+      }
+    },
+    "Missing Category" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori Eksik"
+          }
+        }
+      }
+    },
+    "Missing Emoji" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emoji Eksik"
+          }
+        }
+      }
+    },
+    "Missing Information" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilgi Eksik"
+          }
+        }
+      }
+    },
+    "Missing Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ad Eksik"
+          }
+        }
+      }
+    },
+    "Monday" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pazartesi"
+          }
+        }
+      }
+    },
+    "Monitor how you are sticking to your budgets." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçelerinize ne kadar sadık kaldığınızı izleyin."
+          }
+        }
+      }
+    },
+    "Monitor how you are sticking to your overall budgets." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genel bütçenize ne kadar sadık kaldığınızı izleyin."
+          }
+        }
+      }
+    },
+    "month" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "month"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ay"
+          }
+        }
+      }
+    },
+    "monthly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aylık"
+          }
+        }
+      }
+    },
+    "Monthly" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aylık"
+          }
+        }
+      }
+    },
+    "monthNewBudget" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ay"
+          }
+        }
+      }
+    },
+    "months" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ay"
+          }
+        }
+      }
+    },
+    "Mornings" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sabahlar"
+          }
+        }
+      }
+    },
+    "Name" : {
+
+    },
+    "net" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "net"
+          }
+        }
+      }
+    },
+    "net total" : {
+
+    },
+    "Net total" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Net toplam"
+          }
+        }
+      }
+    },
+    "Net Total" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Net Toplam"
+          }
+        }
+      }
+    },
+    "new" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "new"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yeni"
+          }
+        }
+      }
+    },
+    "New" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni"
+          }
+        }
+      }
+    },
+    "New Budget" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Budget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni Bütçe"
+          }
+        }
+      }
+    },
+    "New Expense" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni Gider"
+          }
+        }
+      }
+    },
+    "New Transaction" : {
+
+    },
+    "next day" : {
+
+    },
+    "next month" : {
+
+    },
+    "next week" : {
+
+    },
+    "No %@ categories found,\nclick the 'New' button to add some." : {
+
+    },
+    "No Budgets Found" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçe Bulunamadı"
+          }
+        }
+      }
+    },
+    "No categories found" : {
+
+    },
+    "No category with an ID matching: %@" : {
+
+    },
+    "No entries found." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giriş bulunamadı."
+          }
+        }
+      }
+    },
+    "NO RECENT EXPENSES" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SON İŞLEM YOK"
+          }
+        }
+      }
+    },
+    "No remaining\ncategories." : {
+
+    },
+    "NO TRANSACTIONS\n%@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İŞLEM YOK\n%@"
+          }
+        }
+      }
+    },
+    "no_expense_categories" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gider kategorisi bulunamadı, eklemek için 'Yeni' düğmesine tıklayın"
+          }
+        }
+      }
+    },
+    "no_income_categories" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelir kategorisi bulunamadı, eklemek için 'Yeni' düğmesine tıklayın"
+          }
+        }
+      }
+    },
+    "none" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yok"
+          }
+        }
+      }
+    },
+    "None" : {
+
+    },
+    "Note" : {
+
+    },
+    "Notifications" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildirimler"
+          }
+        }
+      }
+    },
+    "Number Entry" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sayı Girişi"
+          }
+        }
+      }
+    },
+    "Number Entry Method" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sayı Girişi Yöntemi"
+          }
+        }
+      }
+    },
+    "Oct" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eki"
+          }
+        }
+      }
+    },
+    "Off" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapalı"
+          }
+        }
+      }
+    },
+    "On" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Açık"
+          }
+        }
+      }
+    },
+    "OTHERS" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DİĞERLERİ"
+          }
+        }
+      }
+    },
+    "over" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "üzerinde"
+          }
+        }
+      }
+    },
+    "over %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ üzerinde"
+          }
+        }
+      }
+    },
+    "over on %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@'de üzerinde"
+          }
+        }
+      }
+    },
+    "over this month" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu ay üzerinde"
+          }
+        }
+      }
+    },
+    "over this week" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu hafta üzerinde"
+          }
+        }
+      }
+    },
+    "over this year" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu yıl üzerinde"
+          }
+        }
+      }
+    },
+    "over today" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bugün üzerinde"
+          }
+        }
+      }
+    },
+    "Over what time frame would you like to consider?" : {
+
+    },
+    "overall budget" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "genel bütçe"
+          }
+        }
+      }
+    },
+    "Overall Budget" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genel Bütçe"
+          }
+        }
+      }
+    },
+    "OVerall Budget" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OVerall Budget"
+          }
+        }
+      }
+    },
+    "OVERALL SPENT: %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GENEL HARCAMA: %@"
+          }
+        }
+      }
+    },
+    "Part-Time" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yarı Zamanlı"
+          }
+        }
+      }
+    },
+    "Paycheck" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maaş Çeki"
+          }
+        }
+      }
+    },
+    "Percent Spent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harcanan Yüzde"
+          }
+        }
+      }
+    },
+    "Permanently Delete Everythin'" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her Şeyi Kalıcı Olarak Sil"
+          }
+        }
+      }
+    },
+    "Pets" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Evcil Hayvanlar"
+          }
+        }
+      }
+    },
+    "Pick a start date" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a start date"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlangıç tarihi seçin"
+          }
+        }
+      }
+    },
+    "Please Change Emoji" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen emojiyi değiştirin"
+          }
+        }
+      }
+    },
+    "Please Change Name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen adı değiştirin"
+          }
+        }
+      }
+    },
+    "Please Edit Accordingly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lütfen uygun şekilde düzenleyin"
+          }
+        }
+      }
+    },
+    "Please re-enable Face ID access in the Settings app to unlock application." : {
+
+    },
+    "Press the plus button\nto add your first entry" : {
+
+    },
+    "Press the plus button to add your first entry" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Press the plus button to add your first entry"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk girişi eklemek için artı düğmesine basın"
+          }
+        }
+      }
+    },
+    "previous day" : {
+
+    },
+    "previous month" : {
+
+    },
+    "previous week" : {
+
+    },
+    "Processing Import" : {
+
+    },
+    "Pull to add update" : {
+
+    },
+    "Quick Add Widget" : {
+
+    },
+    "Rate on App Store" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rate on App Store"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store'da Değerlendir"
+          }
+        }
+      }
+    },
+    "RECENT EXPENSES" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SON GİDERLER"
+          }
+        }
+      }
+    },
+    "Recent Transactions" : {
+      "comment" : "Labels",
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son İşlemler"
+          }
+        }
+      }
+    },
+    "recurring" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "recurring"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tekrarlayan"
+          }
+        }
+      }
+    },
+    "Recurring Frequency" : {
+
+    },
+    "Recurring Transaction" : {
+
+    },
+    "Referencing %@, state the format of the dates in the assigned column." : {
+
+    },
+    "Remember to input your expenses today." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugün harcamalarınızı girmeyi unutmayın."
+          }
+        }
+      }
+    },
+    "remove filter" : {
+
+    },
+    "Rent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kira"
+          }
+        }
+      }
+    },
+    "Repeats every" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her tekrarlanır:"
+          }
+        }
+      }
+    },
+    "Replace Time Label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Replace Time Label"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaman Etiketini Değiştir"
+          }
+        }
+      }
+    },
+    "Report Bug" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Report Bug"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata Bildir"
+          }
+        }
+      }
+    },
+    "Sample from 'Date' Column" : {
+
+    },
+    "Sample Sheet" : {
+
+    },
+    "Sampled Rows from Import CSV" : {
+
+    },
+    "Saturday" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cumartesi"
+          }
+        }
+      }
+    },
+    "Save as Photo" : {
+
+    },
+    "Search" : {
+
+    },
+    "Search entry by note" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not ile giriş ara"
+          }
+        }
+      }
+    },
+    "Select a categorical budget." : {
+
+    },
+    "Select a category" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a category"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir kategori seçin"
+          }
+        }
+      }
+    },
+    "SELECT BUDGET" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BÜTÇE SEÇ"
+          }
+        }
+      }
+    },
+    "Select budget in widget options" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget seçeneklerinden bütçeyi seçin"
+          }
+        }
+      }
+    },
+    "SELECT BUDGET IN WIDGET OPTIONS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "WIDGET SEÇENEKLERİNDE BÜTÇE SEÇİN"
+          }
+        }
+      }
+    },
+    "Set budget amount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set budget amount"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçe miktarını ayarla"
+          }
+        }
+      }
+    },
+    "Set categorical goals to limit your spending" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set categorical goals to limit your spending"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
+          }
+        }
+      }
+    },
+    "Share with Friends" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share with Friends"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkadaşlarınla Paylaş"
+          }
+        }
+      }
+    },
+    "Show Line Graph" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Line Graph"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çizgi Grafiğini Göster"
+          }
+        }
+      }
+    },
+    "showing transactions in %@" : {
+
+    },
+    "showing transactions on %@" : {
+
+    },
+    "Shown" : {
+
+    },
+    "Sneakers" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spor Ayakkabılar"
+          }
+        }
+      }
+    },
+    "Special thanks to %@ for contributing" : {
+
+    },
+    "spent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "harcanan"
+          }
+        }
+      }
+    },
+    "Spent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harcanan"
+          }
+        }
+      }
+    },
+    "SPENT " : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HARCANAN "
+          }
+        }
+      }
+    },
+    "SPENT: %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HARCANAN: %@"
+          }
+        }
+      }
+    },
+    "Spent/Day" : {
+
+    },
+    "SPENT/DAY" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GÜN BAŞINA HARCANAN"
+          }
+        }
+      }
+    },
+    "Spent/Mth" : {
+
+    },
+    "SPENT/MTH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AY BAŞINA HARCANAN"
+          }
+        }
+      }
+    },
+    "Start" : {
+
+    },
+    "Start of month" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayın Başlangıcı"
+          }
+        }
+      }
+    },
+    "Start of Month" : {
+
+    },
+    "Start of Week" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haftanın Başlangıcı"
+          }
+        }
+      }
+    },
+    "Stick to budgets" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stick to budgets"
+          }
+        }
+      }
+    },
+    "Stop Recurring" : {
+
+    },
+    "Stop Recurring?" : {
+
+    },
+    "Subscriptions" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonelikler"
+          }
+        }
+      }
+    },
+    "Subtle" : {
+
+    },
+    "Successfully Added" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarıyla Eklendi"
+          }
+        }
+      }
+    },
+    "Successfully Edited" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarıyla Düzenlendi"
+          }
+        }
+      }
+    },
+    "SUGGESTED" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ÖNERİLEN"
+          }
+        }
+      }
+    },
+    "Suggestions Hidden" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öneriler Gizlendi"
+          }
+        }
+      }
+    },
+    "Sunday" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pazar"
+          }
+        }
+      }
+    },
+    "Swaps the time label of each transaction with its category name. However, if you do not manually input a note for each transaction - in which case the note is the category name by default - duplicate text will appear." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her işlemin zaman etiketini, kategori adıyla değiştirir. Ancak, her işlem için manuel not girmezseniz – bu durumda not varsayılan olarak kategori adı olur – tekrar eden metinler görünebilir."
+          }
+        }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sistem"
+          }
+        }
+      }
+    },
+    "Thanks a million, %@ Rafael" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thanks a million, %@ Rafael"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Milyonlarca teşekkürler, %@ Rafael"
+          }
+        }
+      }
+    },
+    "That's all,\nbuddy." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "That's all,\nbuddy."
+          }
+        }
+      }
+    },
+    "That's all, buddy." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hepsi bu kadar, dostum."
+          }
+        }
+      }
+    },
+    "The 'Excessive' mode makes the entire numpad haptic." : {
+
+    },
+    "The budget will periodically refresh according to your preference." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The budget will periodically refresh according to your preference."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçe, tercihlerinize göre periyodik olarak yenilenecektir."
+          }
+        }
+      }
+    },
+    "The transaction will no longer be automatically logged." : {
+
+    },
+    "This action cannot be undone, and all %@ transactions would be deleted." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu işlem geri alınamaz ve tüm %@ işlemler silinecektir."
+          }
+        }
+      }
+    },
+    "This action cannot be undone." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu işlem geri alınamaz."
+          }
+        }
+      }
+    },
+    "This action genuinely cannot be undone. Long press to confirm." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu işlem gerçekten geri alınamaz. Onaylamak için uzun basın."
+          }
+        }
+      }
+    },
+    "This action would delete all existing transactions, categories, and budgets, and cannot be undone." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu işlem, mevcut tüm işlemleri, kategorileri ve bütçeleri silecek ve geri alınamaz."
+          }
+        }
+      }
+    },
+    "this month" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu ay"
+          }
+        }
+      }
+    },
+    "THIS MONTH" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BU AY"
+          }
+        }
+      }
+    },
+    "this week" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu hafta"
+          }
+        }
+      }
+    },
+    "THIS WEEK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BU HAFTA"
+          }
+        }
+      }
+    },
+    "this year" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bu yıl"
+          }
+        }
+      }
+    },
+    "THIS YEAR" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BU YIL"
+          }
+        }
+      }
+    },
+    "Thursday" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perşembe"
+          }
+        }
+      }
+    },
+    "Time Frame" : {
+
+    },
+    "Time Frame of Data" : {
+
+    },
+    "Time Frames" : {
+
+    },
+    "Time Period" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaman Dilimi"
+          }
+        }
+      }
+    },
+    "Tip failed to go through, please try again!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tip failed to go through, please try again!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahşiş gönderilemedi, lütfen tekrar deneyin!"
+          }
+        }
+      }
+    },
+    "Tip Jar" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahşiş Kutusu"
+          }
+        }
+      }
+    },
+    "Tips" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahşişler"
+          }
+        }
+      }
+    },
+    "today" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bugün"
+          }
+        }
+      }
+    },
+    "Today, %@" : {
+      "comment" : "new transaction page",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bugün, %@"
+          }
+        }
+      }
+    },
+    "total expenditure" : {
+
+    },
+    "total income" : {
+
+    },
+    "Total Income" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toplam Gelir"
+          }
+        }
+      }
+    },
+    "Total Spent" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toplam Harcama"
+          }
+        }
+      }
+    },
+    "Track your expenses" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Track your expenses"
+          }
+        }
+      }
+    },
+    "transaction-view-income-picker" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gelir"
+          }
+        }
+      }
+    },
+    "Transport" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulaşım"
+          }
+        }
+      }
+    },
+    "Try a different search query!" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farklı bir arama deneyin!"
+          }
+        }
+      }
+    },
+    "Tuesday" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salı"
+          }
+        }
+      }
+    },
+    "Type" : {
+
+    },
+    "Type 1" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tip 1"
+          }
+        }
+      }
+    },
+    "Type 2" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tip 2"
+          }
+        }
+      }
+    },
+    "Type of Data" : {
+
+    },
+    "Type of the transaction" : {
+
+    },
+    "Unable to load tip options, please try again later 🥲" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahşiş seçenekleri yüklenemedi, lütfen daha sonra tekrar deneyin 🥲"
+          }
+        }
+      }
+    },
+    "under %@" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "under %@"
+          }
+        }
+      }
+    },
+    "Unlock App" : {
+
+    },
+    "UPCOMING" : {
+
+    },
+    "Upcoming Logs" : {
+
+    },
+    "Utilities" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faturalar"
+          }
+        }
+      }
+    },
+    "Value of the transaction" : {
+
+    },
+    "Version %@ (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %1$@ (%2$@)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sürüm %@ (%@)"
+          }
+        }
+      }
+    },
+    "Version %@ (%@) · 18 Sep 2023" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %1$@ (%2$@) · 18 Sep 2023"
+          }
+        }
+      }
+    },
+    "View your latest expenses." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En son giderlerinizi görüntüleyin."
+          }
+        }
+      }
+    },
+    "Wednesday" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çarşamba"
+          }
+        }
+      }
+    },
+    "week" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "week"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hafta"
+          }
+        }
+      }
+    },
+    "weekly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "haftalık"
+          }
+        }
+      }
+    },
+    "Weekly" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haftalık"
+          }
+        }
+      }
+    },
+    "weekNewBudget" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hafta"
+          }
+        }
+      }
+    },
+    "weeks" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hafta"
+          }
+        }
+      }
+    },
+    "welcome_header_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finansmanınızı Takip Edin"
+          }
+        }
+      }
+    },
+    "welcome_header_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harcamalarınızı Analiz Edin"
+          }
+        }
+      }
+    },
+    "welcome_header_3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütçelere Sadık Kalın"
+          }
+        }
+      }
+    },
+    "welcome_subtitle_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni girişleri basit ve anlaşılır bir şekilde ekleyin"
+          }
+        }
+      }
+    },
+    "welcome_subtitle_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farklı zaman dilimlerindeki harcamalarınızdan içgörü kazanın"
+          }
+        }
+      }
+    },
+    "welcome_subtitle_3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harcamalarınızı sınırlamak için kategori ve zaman bazlı hedefler belirleyin"
+          }
+        }
+      }
+    },
+    "What budget type would you like to extract insights from?" : {
+
+    },
+    "What category does it come under?" : {
+
+    },
+    "What's New" : {
+
+    },
+    "What's New?" : {
+
+    },
+    "Which additional category filters do you want to impose?" : {
+
+    },
+    "Which day of the %@ do you want your budget to start from?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Which day of the %@ do you want your budget to start from?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@'ın hangi gününden bütçeniz başlasın istiyorsunuz?"
+          }
+        }
+      }
+    },
+    "Which of the following would you like to extract?" : {
+
+    },
+    "Would you like to log an income or expense?" : {
+
+    },
+    "year" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "year"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yıl"
+          }
+        }
+      }
+    },
+    "Yearly" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yıllık"
+          }
+        }
+      }
+    },
+    "yearNewBudget" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yıl"
+          }
+        }
+      }
+    },
+    "yesterday" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dün"
+          }
+        }
+      }
+    },
+    "Your Log is Empty" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlüğünüz Boş"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
