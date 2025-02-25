@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,7 +48,6 @@
 		5383D85D287D9A0100D1B9BA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		53B1D18B288ED7E400E28062 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		53B1D18D288ED7E500E28062 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		85B4B0D22D6E67A000EAD5FE /* LiraConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LiraConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -237,7 +236,8 @@
 /* Begin XCBuildConfiguration section */
 		5327D28F287C697C00F76ADF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B4B0D22D6E67A000EAD5FE /* LiraConfig.xcconfig */;
+			baseConfigurationReferenceAnchor = 093E09B42D6E3EDC00468B34 /* dime */;
+			baseConfigurationReferenceRelativePath = Configurations/LiraConfig.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -301,7 +301,8 @@
 		};
 		5327D290287C697C00F76ADF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B4B0D22D6E67A000EAD5FE /* LiraConfig.xcconfig */;
+			baseConfigurationReferenceAnchor = 093E09B42D6E3EDC00468B34 /* dime */;
+			baseConfigurationReferenceRelativePath = Configurations/LiraConfig.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -359,7 +360,8 @@
 		};
 		5327D292287C697C00F76ADF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B4B0D22D6E67A000EAD5FE /* LiraConfig.xcconfig */;
+			baseConfigurationReferenceAnchor = 093E09B42D6E3EDC00468B34 /* dime */;
+			baseConfigurationReferenceRelativePath = Configurations/LiraConfig.xcconfig;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon4 AppIcon3 AppIcon2 AppIcon1";
@@ -401,7 +403,8 @@
 		};
 		5327D293287C697C00F76ADF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B4B0D22D6E67A000EAD5FE /* LiraConfig.xcconfig */;
+			baseConfigurationReferenceAnchor = 093E09B42D6E3EDC00468B34 /* dime */;
+			baseConfigurationReferenceRelativePath = Configurations/LiraConfig.xcconfig;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon4 AppIcon3 AppIcon2 AppIcon1";
