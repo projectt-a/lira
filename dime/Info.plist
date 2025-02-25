@@ -8,7 +8,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.projecta.lira</string>
+			<string>$(BUNDLE_ID)</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>liraApp</string>
