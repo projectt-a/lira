@@ -10,6 +10,21 @@ import Foundation
 import SwiftUI
 import WidgetKit
 
+enum TimePeriod {
+  case unknown
+  case day
+  case week
+  case month
+  case year
+}
+
+enum InsightsTimePeriod {
+  case unknown
+  case week
+  case month
+  case year
+}
+
 @available(iOS 16, *)
 enum CustomError: Swift.Error, CustomLocalizedStringResourceConvertible {
     case notFound,
@@ -319,7 +334,7 @@ class DataController: ObservableObject {
 
         return results(for: itemRequest)
     }
-
+  
     func fetchRequestForRecentTransactions(type: TimePeriod) -> NSFetchRequest<Transaction> {
         let itemRequest: NSFetchRequest<Transaction> = Transaction.fetchRequest()
 
