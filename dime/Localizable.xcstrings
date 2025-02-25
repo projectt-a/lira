@@ -128,12 +128,6 @@
     },
     "%@ • %@ spent" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ • %2$@ spent"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3950,12 +3944,6 @@
     },
     "Version %@ (%@)" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Version %1$@ (%2$@)"
-          }
-        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
