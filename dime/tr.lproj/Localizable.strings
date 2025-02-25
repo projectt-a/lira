@@ -1,0 +1,482 @@
+/* No comment provided by engineer. */
+"%" = "%";
+
+/* No comment provided by engineer. */
+"%.0f" = "%.0f";
+
+/* No comment provided by engineer. */
+"%.0f%" = "%1$.0f%2$";
+
+/* No comment provided by engineer. */
+"%.1f" = "%.1f";
+
+/* No comment provided by engineer. */
+"%.1f%" = "%1$.1f%2$";
+
+/* No comment provided by engineer. */
+"%.2f" = "%.2f";
+
+/* No comment provided by engineer. */
+"%@" = "%@";
+
+/* No comment provided by engineer. */
+"%@ %@ " = "%1$@ %2$@";
+
+/* No comment provided by engineer. */
+"%@ CATEGORIES" = "%@ KATEGORİLER";
+
+/* No comment provided by engineer. */
+"%@ of month" = "%@ ayın";
+
+/* No comment provided by engineer. */
+"%@ SPENT" = "%@ HARCANAN";
+
+/* No comment provided by engineer. */
+"%@  %@ spent" = "%1$@  %2$@ harcandı";
+
+/* No comment provided by engineer. */
+"%@%" = "%1$@%2$";
+
+/* No comment provided by engineer. */
+"%@%.2f" = "%1$@%2$.2f";
+
+/* No comment provided by engineer. */
+"%@%@" = "%1$@%2$@";
+
+/* No comment provided by engineer. */
+"+%.2f" = "+%.2f";
+
+/* No comment provided by engineer. */
+"+%@" = "+%@";
+
+/* No comment provided by engineer. */
+"-%.2f" = "-%.2f";
+
+/* No comment provided by engineer. */
+"-%@" = "-%@";
+
+/* No comment provided by engineer. */
+"." = ".";
+
+/* No comment provided by engineer. */
+"0" = "0";
+
+/* No comment provided by engineer. */
+"100" = "100";
+
+/* No comment provided by engineer. */
+"\"Cent-less\"" = "\"Kurusuz\"";
+
+/* No comment provided by engineer. */
+"\"Pre-dotted\"" = "\"Önceden noktalı\"";
+
+/* No comment provided by engineer. */
+"Add Categories" = "Kategori Ekle";
+
+/* No comment provided by engineer. */
+"Add new entries in a simple, straightforward manner" = "Basit, anlaşılır bir şekilde yeni girişler ekleyin";
+
+/* No comment provided by engineer. */
+"Add Note" = "Not Ekle";
+
+/* No comment provided by engineer. */
+"Add your first budget today!" = "Bugün ilk bütçeni ekle!";
+
+/* No comment provided by engineer. */
+"all entries" = "tüm girişler";
+
+/* No comment provided by engineer. */
+"Analyse your expenditure" = "Harcamalarınızı analiz edin";
+
+/* No comment provided by engineer. */
+"Analyse Your Expenditure" = "Harcamalarınızı Analiz Edin";
+
+/* No comment provided by engineer. */
+"Animated Charts" = "Animasyonlu Grafikler";
+
+/* No comment provided by engineer. */
+"App Locked" = "Uygulama Kilitli";
+
+/* No comment provided by engineer. */
+"Appearance" = "Görünüm";
+
+/* No comment provided by engineer. */
+"As transactions start piling up" = "İşlemler birikmeye başladığında";
+
+/* No comment provided by engineer. */
+"Authentication" = "Kimlik Doğrulama";
+
+/* No comment provided by engineer. */
+"Back" = "Geri";
+
+/* No comment provided by engineer. */
+"Back Out" = "Geri Çık";
+
+/* No comment provided by engineer. */
+"Begin by linking this budget to an existing category." = "Bu bütçeyi mevcut bir kategoriye bağlayarak başlayın.";
+
+/* No comment provided by engineer. */
+"Budget Rows" = "Bütçe Satırları";
+
+/* No comment provided by engineer. */
+"BUDGET SCORE" = "BÜTÇE SKORU";
+
+/* No comment provided by engineer. */
+"Budget Your Finances" = "Mali Durumunuzu Bütçeyin";
+
+/* No comment provided by engineer. */
+"Budgets" = "Bütçeler";
+
+/* No comment provided by engineer. */
+"by category" = "kategoriye göre";
+
+/* No comment provided by engineer. */
+"by day" = "güne göre";
+
+/* No comment provided by engineer. */
+"by month" = "aya göre";
+
+/* No comment provided by engineer. */
+"by type" = "türe göre";
+
+/* No comment provided by engineer. */
+"by week" = "haftaya göre";
+
+/* No comment provided by engineer. */
+"Cancel" = "İptal";
+
+/* No comment provided by engineer. */
+"Categories" = "Kategoriler";
+
+/* No comment provided by engineer. */
+"Category" = "Kategori";
+
+/* No comment provided by engineer. */
+"category budget" = "kategori bütçesi";
+
+/* No comment provided by engineer. */
+"Celebrate Expenses" = "Harcamaları Kutla";
+
+/* No comment provided by engineer. */
+"Choose a time frame" = "Bir zaman dilimi seçin";
+
+/* No comment provided by engineer. */
+"Close and reload app for change to take effect." = "Değişikliğin etkili olması için uygulamayı kapatıp yeniden başlatın.";
+
+/* No comment provided by engineer. */
+"Continue" = "Devam";
+
+/* No comment provided by engineer. */
+"Currencies" = "Para Birimleri";
+
+/* No comment provided by engineer. */
+"custom" = "özel";
+
+/* No comment provided by engineer. */
+"Custom Interval" = "Özel Aralık";
+
+/* No comment provided by engineer. */
+"Custom Time" = "Özel Zaman";
+
+/* No comment provided by engineer. */
+"Danger Zone" = "Tehlike Bölgesi";
+
+/* No comment provided by engineer. */
+"DATA" = "VERİ";
+
+/* No comment provided by engineer. */
+"Delete" = "Sil";
+
+/* No comment provided by engineer. */
+"Delete ''?" = "'' Silinsin mi?";
+
+/* No comment provided by engineer. */
+"Delete Expense?" = "Gideri Sil?";
+
+/* No comment provided by engineer. */
+"Delete Literally Everything" = "Kelimenin Tam Anlamıyla Her Şeyi Sil";
+
+/* No comment provided by engineer. */
+"Delete the '%@' budget?" = "'%@' bütçesini sil?";
+
+/* No comment provided by engineer. */
+"Delete your overall budget?" = "Genel bütçenizi sil?";
+
+/* No comment provided by engineer. */
+"dime" = "dime";
+
+/* No comment provided by engineer. */
+"Display Cents" = "Kuruşları Göster";
+
+/* No comment provided by engineer. */
+"Draw insights from your spending over various time periods" = "Çeşitli zaman dilimlerindeki harcamalarınızdan içgörüler çıkarın";
+
+/* No comment provided by engineer. */
+"Edit" = "Düzenle";
+
+/* No comment provided by engineer. */
+"Enable Notifications" = "Bildirimleri Etkinleştir";
+
+/* No comment provided by engineer. */
+"Enable Sync" = "Senkronizasyonu Etkinleştir";
+
+/* No comment provided by engineer. */
+"Erase Data" = "Verileri Sil";
+
+/* No comment provided by engineer. */
+"Every evening (8:00 PM)" = "Her akşam (20:00)";
+
+/* No comment provided by engineer. */
+"Every morning (8:00 AM)" = "Her sabah (08:00)";
+
+/* No comment provided by engineer. */
+"Expense" = "Gider";
+
+/* No comment provided by engineer. */
+"Expense Category" = "Gider Kategorisi";
+
+/* No comment provided by engineer. */
+"Expenses" = "Giderler";
+
+/* No comment provided by engineer. */
+"expenses" = "giderler";
+
+/* No comment provided by engineer. */
+"Experimental features - proceed with caution." = "Deneysel özellikler - dikkatli kullanın.";
+
+/* No comment provided by engineer. */
+"Export Data" = "Verileri Dışa Aktar";
+
+/* No comment provided by engineer. */
+"Feature Lab" = "Özellik Laboratuvarı";
+
+/* No comment provided by engineer. */
+"Feel free to edit this in the future." = "Gelecekte bunu düzenlemekten çekinmeyin.";
+
+/* No comment provided by engineer. */
+"Follow Dime on Twitter" = "Dime'ı Twitter'da takip edin";
+
+/* No comment provided by engineer. */
+"Follow Rafael on Instagram" = "Rafael'i Instagram'da takip edin";
+
+/* No comment provided by engineer. */
+"GENERAL" = "GENEL";
+
+/* No comment provided by engineer. */
+"Get Started" = "Başlayın";
+
+/* No comment provided by engineer. */
+"Have a great day ahead!" = "İyi günler!";
+
+/* No comment provided by engineer. */
+"Here are 2 different ways to input numbers - try out both and choose one you prefer!" = "İki farklı sayı girme yöntemi var - her ikisini de deneyin ve tercih ettiğinizi seçin!";
+
+/* No comment provided by engineer. */
+"Hey! Dime was built by a solo student developer, and is intended to be completely free-of-charge, with no paywalls or ads. If you enjoy using Dime and want to support development, please consider a small tip." = "Selam! Dime, tek bir öğrenci geliştirici tarafından oluşturuldu ve hiçbir ücret, ödeme duvarı veya reklam olmadan tamamen ücretsiz olması amaçlanıyor. Dime'ı kullanmaktan hoşlanıyorsanız ve geliştirme çalışmalarına destek olmak istiyorsanız, lütfen küçük bir bahşiş vermeyi düşünün.";
+
+/* No comment provided by engineer. */
+"iCloud Sync" = "iCloud Senkronizasyonu";
+
+/* No comment provided by engineer. */
+"If you're too lazy to add a decimal point, \nI gotchu covered." = "Ondalık nokta eklemeye üşeniyorsanız, \nBen hallederim.";
+
+/* No comment provided by engineer. */
+"If your inputs rarely include cents, Type 2 would enable you to add new expenses much faster." = "Girdileriniz nadiren kuruş içeriyorsa, Tip 2 yeni giderleri çok daha hızlı eklemenizi sağlar.";
+
+/* No comment provided by engineer. */
+"If your transactions usually amount to whole numbers - this one is for you." = "İşlemleriniz genellikle tam sayılardan oluşuyorsa - bu tam size göre.";
+
+/* No comment provided by engineer. */
+"Income" = "Gelir";
+
+/* No comment provided by engineer. */
+"income" = "gelir";
+
+/* No comment provided by engineer. */
+"Income Category" = "Gelir Kategorisi";
+
+/* No comment provided by engineer. */
+"Income Tracking" = "Gelir Takibi";
+
+/* No comment provided by engineer. */
+"Insights" = "İçgörüler";
+
+/* No comment provided by engineer. */
+"Into the\\nunknown." = "Bilinmeze\\ndoğru.";
+
+/* No comment provided by engineer. */
+"left %@ " = "%@ kaldı";
+
+/* No comment provided by engineer. */
+"left each day" = "her gün kaldı";
+
+/* No comment provided by engineer. */
+"Link budgets to categories and set appropriate expenditure goals" = "Bütçeleri kategorilere bağlayın ve uygun harcama hedefleri belirleyin";
+
+/* No comment provided by engineer. */
+"Loading" = "Yükleniyor";
+
+/* No comment provided by engineer. */
+"Made with d' by %@ from <<" = "d' ile %@ tarafından <<'dan yapıldı";
+
+/* No comment provided by engineer. */
+"month" = "ay";
+
+/* No comment provided by engineer. */
+"New" = "Yeni";
+
+/* No comment provided by engineer. */
+"new" = "yeni";
+
+/* No comment provided by engineer. */
+"New Budget" = "Yeni Bütçe";
+
+/* No comment provided by engineer. */
+"No %@ categories found,\nclick the 'New' button to add some." = "%@ kategori bulunamadı,\nbazı eklemek için 'Yeni' düğmesine tıklayın.";
+
+/* No comment provided by engineer. */
+"No Budgets Found" = "Bütçe Bulunamadı";
+
+/* No comment provided by engineer. */
+"No entries found." = "Giriş bulunamadı.";
+
+/* No comment provided by engineer. */
+"Notifications" = "Bildirimler";
+
+/* No comment provided by engineer. */
+"Number Entry Method" = "Sayı Giriş Yöntemi";
+
+/* No comment provided by engineer. */
+"OTHERS" = "DİĞERLER";
+
+/* No comment provided by engineer. */
+"over %@" = "%@ üzerinde";
+
+/* No comment provided by engineer. */
+"Overall Budget" = "Genel Bütçe";
+
+/* No comment provided by engineer. */
+"Overall Budget" = "Genel Bütçe";
+
+/* No comment provided by engineer. */
+"overall budget" = "genel bütçe";
+
+/* No comment provided by engineer. */
+"Permanently Delete Everythin'" = "Her Şeyi Kalıcı Olarak Sil";
+
+/* No comment provided by engineer. */
+"Pick a start date" = "Başlangıç tarihi seçin";
+
+/* No comment provided by engineer. */
+"Please re-enable Face ID access in the Settings app to unlock application." = "Uygulamayı açmak için Ayarlar uygulamasında Face ID erişimini yeniden etkinleştirin.";
+
+/* No comment provided by engineer. */
+"Press the plus button to add your first entry" = "İlk girişinizi eklemek için artı düğmesine basın";
+
+/* No comment provided by engineer. */
+"Rate on App Store" = "App Store'da Puan Ver";
+
+/* No comment provided by engineer. */
+"recurring" = "tekrarlayan";
+
+/* No comment provided by engineer. */
+"Repeats every" = "Her tekrar";
+
+/* No comment provided by engineer. */
+"Replace Time Label" = "Zaman Etiketini Değiştir";
+
+/* No comment provided by engineer. */
+"Report Bug" = "Hata Bildir";
+
+/* No comment provided by engineer. */
+"Select a category" = "Bir kategori seçin";
+
+/* No comment provided by engineer. */
+"Set budget amount" = "Bütçe miktarını ayarla";
+
+/* No comment provided by engineer. */
+"Set categorical goals to limit your spending" = "Harcamalarınızı sınırlamak için kategorik hedefler belirleyin";
+
+/* No comment provided by engineer. */
+"Settings" = "Ayarlar";
+
+/* No comment provided by engineer. */
+"Share with Friends" = "Arkadaşlarınızla Paylaşın";
+
+/* No comment provided by engineer. */
+"Show Line Graph" = "Çizgi Grafiği Göster";
+
+/* No comment provided by engineer. */
+"Start of Week" = "Haftanın Başlangıcı";
+
+/* No comment provided by engineer. */
+"Stick to budgets" = "Bütçelere bağlı kalın";
+
+/* No comment provided by engineer. */
+"SUGGESTED" = "ÖNERİLEN";
+
+/* No comment provided by engineer. */
+"Swaps the time label of each transaction with its category name. However, if you do not manually input a note for each transaction - in which case the note is the category name by default - duplicate text will appear." = "Her işlemin zaman etiketini kategori adıyla değiştirir. Ancak, her işlem için manuel olarak bir not girmezseniz - bu durumda not varsayılan olarak kategori adıdır - yinelenen metin görünecektir.";
+
+/* No comment provided by engineer. */
+"Thanks a million, %@ Rafael" = "Çok teşekkürler, %@ Rafael";
+
+/* No comment provided by engineer. */
+"That's all,\nbuddy." = "Hepsi bu,\nkanka.";
+
+/* No comment provided by engineer. */
+"The budget will periodically refresh according to your preference." = "Bütçe, tercihinize göre periyodik olarak yenilenecektir.";
+
+/* No comment provided by engineer. */
+"This action cannot be undone, and all %@ transactions would be deleted." = "Bu işlem geri alınamaz ve tüm %@ işlemleri silinir.";
+
+/* No comment provided by engineer. */
+"This action cannot be undone." = "Bu işlem geri alınamaz.";
+
+/* No comment provided by engineer. */
+"This action genuinely cannot be undone. Long press to confirm." = "Bu işlem gerçekten geri alınamaz. Onaylamak için uzun basın.";
+
+/* No comment provided by engineer. */
+"This action would delete all existing transactions, categories, and budgets, and cannot be undone." = "Bu işlem, mevcut tüm işlemleri, kategorileri ve bütçeleri silecektir ve geri alınamaz.";
+
+/* No comment provided by engineer. */
+"Tip failed to go through, please try again!" = "Bahşiş geçilemedi, lütfen tekrar deneyin!";
+
+/* No comment provided by engineer. */
+"Tip Jar" = "Bahşiş Kutusu";
+
+/* No comment provided by engineer. */
+"Track your expenses" = "Giderlerinizi takip edin";
+
+/* No comment provided by engineer. */
+"Try a different search query!" = "Farklı bir arama sorgusu deneyin!";
+
+/* No comment provided by engineer. */
+"Unable to load tip options, please try again later >r" = "Bahşiş seçenekleri yüklenemedi, lütfen daha sonra tekrar deneyin >r";
+
+/* No comment provided by engineer. */
+"under %@" = "%@ altında";
+
+/* No comment provided by engineer. */
+"Unlock App" = "Uygulamayı Aç";
+
+/* No comment provided by engineer. */
+"Version %@ (%@)" = "Sürüm %@ (%@)";
+
+/* No comment provided by engineer. */
+"week" = "hafta";
+
+/* No comment provided by engineer. */
+"Which day of the %@ do you want your budget to start from?" = "%@'nin hangi gününden itibaren bütçenizin başlamasını istiyorsunuz?";
+
+/* No comment provided by engineer. */
+"year" = "yıl";
+
+/* No comment provided by engineer. */
+"Your Log is Empty" = "Günlüğünüz Boş";
+
+/* No comment provided by engineer. */
+"=" = "=";
+
+/* No comment provided by engineer. */
+"=H" = "=H";

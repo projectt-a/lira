@@ -179,6 +179,7 @@
 				Base,
 				fr,
 				ru,
+				tr,
 			);
 			mainGroup = 5327D27A287C697400F76ADF;
 			packageReferences = (
