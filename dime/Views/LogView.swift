@@ -5,7 +5,7 @@
 //  Created by Rafael Soh on 19/5/22.
 //
 
-import CloudKitSyncMonitor
+//import CloudKitSyncMonitor
 import CoreData
 import Foundation
 import SwiftUIIntrospect
@@ -13,7 +13,7 @@ import Popovers
 import SwiftUI
 
 struct LogView: View {
-    @ObservedObject var syncMonitor = SyncMonitor.shared
+//    @ObservedObject var syncMonitor = SyncMonitor.shared
 
     @State var updatedRecurring = false
 
@@ -22,11 +22,11 @@ struct LogView: View {
     @EnvironmentObject var dataController: DataController
     @Environment(\.managedObjectContext) var moc
 
-    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var showCents: Bool = true
+    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.projecta.lira")) var showCents: Bool = true
 
     var topEdge: CGFloat
 
-    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var currency: String = Locale.current.currencyCode!
+    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.projecta.lira")) var currency: String = Locale.current.currencyCode!
     var currencySymbol: String {
         return Locale.current.localizedCurrencySymbol(forCurrencyCode: currency)!
     }
@@ -39,7 +39,7 @@ struct LogView: View {
     // top bar
     @State var navBarText = ""
     @State var showMenu = false
-    @AppStorage("logTimeFrame", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var logTimeFrame = 2
+    @AppStorage("logTimeFrame", store: UserDefaults(suiteName: "group.com.projecta.lira")) var logTimeFrame = 2
     let subtitleText = ["today", "this week", "this month", "this year"]
 
     // show filter menu
@@ -266,28 +266,28 @@ struct LogView: View {
             .fullScreenCover(isPresented: $searchMode) {
                 SearchView()
             }
-            .onChange(of: syncMonitor.syncStateSummary) { newState in
-                if newState == .succeeded && !updatedRecurring {
-                    dataController.updateRecurringTransactions()
-                    updatedRecurring = true
-
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 60) {
-                        updatedRecurring = false
-                    }
-                }
-            }
-            .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
-                if syncMonitor.syncStateSummary == .succeeded && !updatedRecurring {
-                    dataController.updateRecurringTransactions()
-                    updatedRecurring = true
-
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 60) {
-                        updatedRecurring = false
-                    }
-                } else if !NSUbiquitousKeyValueStore.default.bool(forKey: "icloud_sync") {
-                    dataController.updateRecurringTransactions()
-                }
-            }
+//            .onChange(of: syncMonitor.syncStateSummary) { newState in
+//                if newState == .succeeded && !updatedRecurring {
+//                    dataController.updateRecurringTransactions()
+//                    updatedRecurring = true
+//
+//                    DispatchQueue.main.asyncAfter(deadline: .now() + 60) {
+//                        updatedRecurring = false
+//                    }
+//                }
+//            }
+//            .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
+//                if syncMonitor.syncStateSummary == .succeeded && !updatedRecurring {
+//                    dataController.updateRecurringTransactions()
+//                    updatedRecurring = true
+//
+//                    DispatchQueue.main.asyncAfter(deadline: .now() + 60) {
+//                        updatedRecurring = false
+//                    }
+//                } else if !NSUbiquitousKeyValueStore.default.bool(forKey: "icloud_sync") {
+//                    dataController.updateRecurringTransactions()
+//                }
+//            }
             .onChange(of: launchSearch) { _ in
                 searchMode = true
             }
@@ -352,9 +352,9 @@ struct NumberView: AnimatableModifier {
     let netTotal: Bool
     let positive: Bool
 
-    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var showCents: Bool = true
+    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.projecta.lira")) var showCents: Bool = true
 
-    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var currency: String = Locale.current.currencyCode!
+    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.projecta.lira")) var currency: String = Locale.current.currencyCode!
     var currencySymbol: String {
         return Locale.current.localizedCurrencySymbol(forCurrencyCode: currency)!
     }
@@ -414,10 +414,10 @@ struct LogInsightsView: View {
     @State var showMenu1 = false
     let subtitleText = ["today", "this week", "this month", "this year", "all time"]
 
-    @AppStorage("logInsightsTimeFrame", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var timeframe = 2
-    @AppStorage("logInsightsType", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var insightsType = 1
+    @AppStorage("logInsightsTimeFrame", store: UserDefaults(suiteName: "group.com.projecta.lira")) var timeframe = 2
+    @AppStorage("logInsightsType", store: UserDefaults(suiteName: "group.com.projecta.lira")) var insightsType = 1
 
-    @AppStorage("logViewLineGraph", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var lineGraph: Bool = false
+    @AppStorage("logViewLineGraph", store: UserDefaults(suiteName: "group.com.projecta.lira")) var lineGraph: Bool = false
 
     var netTotal: (value: Double, positive: Bool) {
         dataController.getLogViewTotalNet(type: timeframe)
@@ -426,7 +426,7 @@ struct LogInsightsView: View {
     var range: Int {
         var calendar = Calendar(identifier: .gregorian)
 
-        calendar.firstWeekday = UserDefaults(suiteName: "group.com.rafaelsoh.dime")?.integer(forKey: "firstWeekday") ?? 0
+        calendar.firstWeekday = UserDefaults(suiteName: "group.com.projecta.lira")?.integer(forKey: "firstWeekday") ?? 0
         calendar.minimumDaysInFirstWeek = 4
 
         if timeframe == 3 {
@@ -765,7 +765,7 @@ struct TimePickerView: View {
     @Binding var timeframe: Int
     @State var holdingTimeframe = 0
 
-    @AppStorage("colourScheme", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var colourScheme: Int = 0
+    @AppStorage("colourScheme", store: UserDefaults(suiteName: "group.com.projecta.lira")) var colourScheme: Int = 0
 
     @Environment(\.colorScheme) var systemColorScheme
 
@@ -838,7 +838,7 @@ struct FilterPickerView: View {
     @Binding var filterType: FilterType
     @Binding var showMenu: Bool
 
-    @AppStorage("colourScheme", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var colourScheme: Int = 0
+    @AppStorage("colourScheme", store: UserDefaults(suiteName: "group.com.projecta.lira")) var colourScheme: Int = 0
 
     @Environment(\.colorScheme) var systemColorScheme
     @Environment(\.dynamicTypeSize) var dynamicTypeSize
@@ -912,8 +912,8 @@ struct TransactionsList: View {
     var month: Date
     var income: Bool
 
-    @AppStorage("showUpcomingTransactions", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var showUpcoming: Bool = true
-    @AppStorage("showUpcomingTransactionsWhenUpcoming", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var showSoon: Bool = false
+    @AppStorage("showUpcomingTransactions", store: UserDefaults(suiteName: "group.com.projecta.lira")) var showUpcoming: Bool = true
+    @AppStorage("showUpcomingTransactionsWhenUpcoming", store: UserDefaults(suiteName: "group.com.projecta.lira")) var showSoon: Bool = false
 
     @EnvironmentObject var dataController: DataController
 
@@ -955,14 +955,14 @@ struct TransactionsList: View {
 struct ListView: View {
     @SectionedFetchRequest<Date?, Transaction> var transactions: SectionedFetchResults<Date?, Transaction>
 
-    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var showCents: Bool = true
+    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.projecta.lira")) var showCents: Bool = true
 
-    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var currency: String = Locale.current.currencyCode!
+    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.projecta.lira")) var currency: String = Locale.current.currencyCode!
     var currencySymbol: String {
         return Locale.current.localizedCurrencySymbol(forCurrencyCode: currency)!
     }
 
-    @AppStorage("swapTimeLabel", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var swapTimeLabel: Bool = false
+    @AppStorage("swapTimeLabel", store: UserDefaults(suiteName: "group.com.projecta.lira")) var swapTimeLabel: Bool = false
 
     @EnvironmentObject var toastPresenter: OverallToastPresenter
 
@@ -1091,14 +1091,14 @@ struct FutureListView: View {
         }
     }
 
-    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var showCents: Bool = true
+    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.projecta.lira")) var showCents: Bool = true
 
-    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var currency: String = Locale.current.currencyCode!
+    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.projecta.lira")) var currency: String = Locale.current.currencyCode!
     var currencySymbol: String {
         return Locale.current.localizedCurrencySymbol(forCurrencyCode: currency)!
     }
 
-    @AppStorage("swapTimeLabel", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var swapTimeLabel: Bool = false
+    @AppStorage("swapTimeLabel", store: UserDefaults(suiteName: "group.com.projecta.lira")) var swapTimeLabel: Bool = false
 
     var totalString: String {
         let numberFormatter = NumberFormatter()
@@ -1505,7 +1505,7 @@ struct DeleteTransactionAlert: View {
 
     @Environment(\.colorScheme) var systemColorScheme
 
-    @AppStorage("bottomEdge", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var bottomEdge: Double = 15
+    @AppStorage("bottomEdge", store: UserDefaults(suiteName: "group.com.projecta.lira")) var bottomEdge: Double = 15
 
     @State private var offset: CGFloat = 0
 
@@ -1698,14 +1698,14 @@ struct FilteredDateView: View {
 
     var date: Date
 
-    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var currency: String = Locale.current.currencyCode!
+    @AppStorage("currency", store: UserDefaults(suiteName: "group.com.projecta.lira")) var currency: String = Locale.current.currencyCode!
     var currencySymbol: String {
         return Locale.current.localizedCurrencySymbol(forCurrencyCode: currency)!
     }
 
-    @AppStorage("swapTimeLabel", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var swapTimeLabel: Bool = false
+    @AppStorage("swapTimeLabel", store: UserDefaults(suiteName: "group.com.projecta.lira")) var swapTimeLabel: Bool = false
 
-    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.rafaelsoh.dime")) var showCents: Bool = true
+    @AppStorage("showCents", store: UserDefaults(suiteName: "group.com.projecta.lira")) var showCents: Bool = true
 
     var body: some View {
         VStack(spacing: 0) {
@@ -2048,7 +2048,7 @@ struct WeekStepperView: View {
             return Date.now
         } else {
             var calendar = Calendar(identifier: .gregorian)
-            calendar.firstWeekday = UserDefaults(suiteName: "group.com.rafaelsoh.dime")?.integer(forKey: "firstWeekday") ?? 0
+            calendar.firstWeekday = UserDefaults(suiteName: "group.com.projecta.lira")?.integer(forKey: "firstWeekday") ?? 0
             calendar.minimumDaysInFirstWeek = 4
 
             let date = transactions[0].day ?? Date.now
@@ -2111,7 +2111,7 @@ struct WeekStepperView: View {
         .onAppear {
             var calendar = Calendar(identifier: .gregorian)
 
-            calendar.firstWeekday = UserDefaults(suiteName: "group.com.rafaelsoh.dime")?.integer(forKey: "firstWeekday") ?? 0
+            calendar.firstWeekday = UserDefaults(suiteName: "group.com.projecta.lira")?.integer(forKey: "firstWeekday") ?? 0
             calendar.minimumDaysInFirstWeek = 4
 
             let date = transactionsReversed[0].day ?? Date.now
