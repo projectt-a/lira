@@ -334,7 +334,7 @@ class DataController: ObservableObject {
 
         return results(for: itemRequest)
     }
-  
+
     func fetchRequestForRecentTransactions(type: TimePeriod) -> NSFetchRequest<Transaction> {
         let itemRequest: NSFetchRequest<Transaction> = Transaction.fetchRequest()
 

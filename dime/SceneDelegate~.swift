@@ -5,9 +5,9 @@
 //  Created by Rafael Soh on 24/8/22.
 //
 
-//import SwiftUI
+// import SwiftUI
 //
-//class SceneDelegate: NSObject, UIWindowSceneDelegate {
+// class SceneDelegate: NSObject, UIWindowSceneDelegate {
 //    @Environment(\.openURL) var openURL
 //
 //    func scene(
@@ -36,4 +36,4 @@
 //
 //        openURL(url, completion: completionHandler)
 //    }
-//}
+// }
